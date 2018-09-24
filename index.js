@@ -1,6 +1,6 @@
 // add solution here
 function theBeatlesPlay(mus, ins){
-  arr={}
+  var arr={}
   for(var i=0;i<mus.length;i++){
     arr.push(`${mus[i]} plays ${ins[i]}`)
   }
@@ -8,7 +8,7 @@ function theBeatlesPlay(mus, ins){
 }
 
 function johnLennonFacts(fac){
-  arr={}
+  var arr={}
   for(var i=0;i<fac.length;i++){
     arr.push(`${fac[i]}!!!`)
   }
@@ -16,7 +16,7 @@ function johnLennonFacts(fac){
 }
 
 function iLoveTheBeatles(num){
-  arr={}
+  var arr={}
   do{
     arr.push("I love the Beatles!")
     num++
